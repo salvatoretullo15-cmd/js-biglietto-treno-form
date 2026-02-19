@@ -6,6 +6,22 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" name="passenger-name" id="passenger-name" placeholder="immetti il tuo nome">
+    <input type="number" name="km" id="km" placeholder="immetti i km del tuo viaggio">
+    <select name="age-range" id="age-range">
+        <option value="minor">minorenne</option>
+        <option value="adult">maggiorenne</option>
+        <option value="senior">over 65</option>
+    </select>
+    <button>generate ticket</button>
+    <section class="ticket">
+        <h2>ticket</h2>
+        <div id="name">nome del passeggero</div>
+        <div id="offer">l'offerta del passaggero</div>
+        <div id="wagon-number">numero del vagone</div>
+        <div id="cp-code">codice del biglietto</div>
+        <div id="ticket-price">prezzo del biglietto del passeggero</div>
+    </section>
     <script src="./main.js"></script>
 </body>
 </html>
